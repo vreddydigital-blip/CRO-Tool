@@ -1,0 +1,51 @@
+# --- Dependencies ------------------------------------------------------------
+/vendor
+/node_modules
+
+# --- Environment & secrets ---------------------------------------------------
+.env
+.env.*
+!.env.example
+.env.backup
+.env.production
+auth.json
+*.pem
+*.key
+/storage/*.key
+
+# --- Build output & caches ---------------------------------------------------
+/public/storage
+/public/hot
+/public/build/manifest.json.bak
+/.vite
+/.phpunit.cache
+.phpunit.result.cache
+/.php-cs-fixer.cache
+/.pint.cache
+/bootstrap/cache/*.php
+!/.gitkeep
+
+# --- Logs --------------------------------------------------------------------
+/storage/logs/*.log
+/storage/pail
+npm-debug.log
+yarn-error.log
+*.log
+
+# --- Database dumps & local databases ----------------------------------------
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+/database/database.sqlite
+
+# --- OS / editor -------------------------------------------------------------
+.DS_Store
+Thumbs.db
+Homestead.json
+Homestead.yaml
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
